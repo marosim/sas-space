@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  background-image: url("../img/space-wallpaper-1.png");
+  background-color: #000000;
+  background-position: center;
+  background-size: cover;
+}
+
+p,
+h2 {
+  color: #fff;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #42525800), to(#5847b4f5));
+  background-image: linear-gradient(to top, #42525800 10%, #5847b4f5 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+}
+
+nav .logo {
+  top: 0;
+}
+
+nav .logo:hover {
+  opacity: 70%;
+}
+
+nav .logo img {
+  position: fixed;
+  width: 60px;
+  top: 43px;
+  left: 45px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+nav .burger-menu {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .burger-menu .burger-label {
+  width: 2rem;
+  height: 1.9rem;
+  padding: 1rem;
+  margin-top: -15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  cursor: pointer;
+}
+
+nav .burger-menu .burger-line {
+  width: 1.8rem;
+  height: 4px;
+  background-color: #fff;
+  display: block;
+  border-radius: 5px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+}
+
+main .main {
+  position: absolute;
+  text-align: center;
+  top: 48%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main .main h1 {
+  margin: 10px 0 30px 50px;
+  font-size: 4em;
+  letter-spacing: 0.7em;
+}
+
+main .main h1 span {
+  color: #482fd8;
+}
+
+main .main p {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  background-color: #101113;
+  font-size: 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+footer p {
+  display: inline-block;
+  margin: auto 10px auto;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+
+footer a {
+  color: #fff;
+  margin: auto 8px auto 2px;
+}
+
+footer a svg {
+  height: 16px;
+  fill: #fff;
+}
+
+footer a svg:hover {
+  fill: #482fd8;
+}
+/*# sourceMappingURL=style.css.map */
